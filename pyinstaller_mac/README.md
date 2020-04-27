@@ -18,6 +18,19 @@ Therefore, you should use sandbox container data directory as working directory.
 
 [Home dir of sandbox container](https://developer.apple.com/documentation/foundation/1413045-nshomedirectory)
 
+Due to sandbox requirements Photos Library in Pictures directory should not be accessed. You can modify ~/.kivy/lib/python3.7/site-packages/kivy/uix/filechooser.py to eliminate the access.
+
+```
+def _apply_filters(self, files):
+    ...
+    # EE: Dont show these directories
+    forbidden = ['Photo Booth Library', 'Photos Library.photoslibrary']
+    files = [f for f in files if basename(f) not in forbidden]
+    ...
+```
+
+Make sure that pyinstaller collects the modified filechooser.py file.
+
 
 ## Build mac osx app with pyinstaller
 
