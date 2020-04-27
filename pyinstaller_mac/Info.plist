@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CFBundleDisplayName</key>
+	<string>The App</string>
+	<key>CFBundleExecutable</key>
+	<string>The App</string>
+	<key>CFBundleIconFile</key>
+	<string>TheApp.icns</string>
+	<key>CFBundleIdentifier</key>
+	<string>com.esenbil.theapp</string>
+	<key>CFBundleInfoDictionaryVersion</key>
+	<string>6.0</string>
+	<key>CFBundleName</key>
+	<string>The App</string>
+	<key>CFBundlePackageType</key>
+	<string>APPL</string>
+	<key>CFBundleVersion</key>
+	<string>X.Y.Z</string>
+	<key>CFBundleShortVersionString</key>
+	<string>X.Y.Z</string>
+	<key>CFBundleSupportedPlatforms</key>
+	<array>
+		<string>MacOSX</string>
+	</array>
+	<key>LSApplicationCategoryType</key>
+	<string>public.app-category.photography</string>
+	<key>LSMinimumSystemVersion</key>
+	<string>10.12.0</string>
+	<key>NSPhotoLibraryUsageDescription</key>
+    <string>The APP would like access to your photo gallery to ... .</string>
+</dict>
+</plist>
