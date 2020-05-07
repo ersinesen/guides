@@ -58,7 +58,7 @@ pip install pypiwin32
 
 * Create pyinstaller spec file
 ```
-python -m PyInstaller --name theapp
+python -m PyInstaller --name theapp main.py
 ```
 
 * Edit spec file
