@@ -55,7 +55,7 @@ pip install pyenchant
 
 Note: If you are using opencv use headless version to get rid of qt dependency which causes mac submission reject due to non-public API usage.
 ```
-pip install opencv-contrib-python-headless==4.1.2.30
+pip install opencv-python-headless==4.1.2.30
 ```
 
 * create pyinstaller spec file
