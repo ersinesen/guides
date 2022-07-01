@@ -6,4 +6,4 @@
 
 * [Converting Reactjs web app to mobile app with Cordova](cordova/README.md)
 
-* [Serve model with TorchServe](torchserve/README.md)
+* [Serving PyTorch model with TorchServe](torchserve/README.md)

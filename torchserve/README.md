@@ -1,4 +1,4 @@
-# Serving Models with TorchServe
+# Serving PyTorch Models with TorchServe
 
 TorchServe is a tool for serving PyTorch eager mode and torschripted models.
 
