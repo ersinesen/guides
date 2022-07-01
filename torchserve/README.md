@@ -12,7 +12,7 @@ torch-model-archiver --model-name X --version 1.0 --model-file XModel.py --seria
 
 ```
 
-**-r**: reuired libraries to install for your model
+**-r**: required libraries to install for your model
 
 **--handler**: your inference code will be here
 
@@ -53,3 +53,7 @@ curl http://localhost:8080/predictions/X -T input_file
 * [torch-model-arhiver](https://github.com/pytorch/serve/tree/master/model-archiver):
 
 * [Inference API](https://pytorch.org/serve/inference_api.html)
+
+* [TorchServe: Model Serving on PyTorch](https://morioh.com/p/b3c854aa2828)
+
+* [Create custom torchserve handlers](https://www.pento.ai/blog/custom-torchserve-handlers)
